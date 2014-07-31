@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Disable Toolbar ===
 Contributors: SeventhSteel
 Tags: hide toolbar, hide admin bar, toolbar, admin bar, adminbar, global hide toolbar, global hide admin bar, toggle toolbar, hide toolbar frontend
 Requires at least: 3.1
