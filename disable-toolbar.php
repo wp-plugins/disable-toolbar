@@ -3,7 +3,7 @@
  * Plugin Name: Disable Toolbar
  * Description: Adds an option in Settings > General that controls who sees the WP Toolbar when viewing your site.
  * Version: 1.0
- * Author: Michael
+ * Author: Michael Dance
  * Author URI: http://mikedance.com
  * License: GPL2
  */
@@ -24,7 +24,7 @@ class MD_Disable_Toolbar {
 
 		add_action( 'init', array( __CLASS__, 'run' ) );
 		add_action( 'admin_init', array( __CLASS__, 'add_setting' ) );
-		
+
 		add_action( 'admin_print_styles-user-edit.php', array( __CLASS__, 'hide_per_user_option' ) );
 		add_action( 'admin_print_styles-profile.php', array( __CLASS__, 'hide_per_user_option' ) );
 
@@ -60,7 +60,7 @@ class MD_Disable_Toolbar {
 	 * Output the setting html.
 	 */
 	static function setting_html() {
-		
+
 		?><p>Hide the Toolbar for the following user roles when viewing the site:</p>
 
 		<p><?php
